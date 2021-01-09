@@ -6,4 +6,4 @@ Steps to seupt framework on local machine
   3) Start json server use CMD: json-server watch db.json
   4) Ready to play with Micro services using rest Auured with cucumber.
   
-  Happy Coading...!
+     Happy Coading...!
