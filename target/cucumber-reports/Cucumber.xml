@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="3.700296">
+<testcase classname="Verify different DELETE operations using REST-assured" name="Verify one Employee Registration" time="1.901372">
+<system-out><![CDATA[Given A new employee details................................................passed
+When admin want to delete employee of ID 100................................passed
+Then verify admin can delete employee Successfully..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify different DELETE operations using REST-assured" name="Verify one Employee Registration" time="0.038883">
+<system-out><![CDATA[Given A new employee details................................................passed
+When admin want to delete employee of ID 101................................passed
+Then verify admin can delete employee Successfully..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify different DELETE operations using REST-assured" name="Verify one Employee Registration" time="0.034576">
+<system-out><![CDATA[Given A new employee details................................................passed
+When admin want to delete employee of ID 150................................passed
+Then verify admin can delete employee Successfully..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify different GET operations using REST-assured" name="Verify one employee by userID" time="0.611312">
+<system-out><![CDATA[Given a list of user details................................................passed
+Then retrieve one user by ID 1..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify different GET operations using REST-assured" name="Verify Company Name of employee" time="0.063806">
+<system-out><![CDATA[Given a list of user details................................................passed
+Then I should see company name of Virendra is Altimetrik....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify different GET operations using REST-assured" name="Verify Company Name of employee" time="0.000133">
+<system-out><![CDATA[Given a list of user details................................................passed
+Then I should see company name of Virendra is CitiBank......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Get book by ISBN" name="User calls web service to get a book by its ISBN" time="1.03431">
+<system-out><![CDATA[Given a book exists with an isbn of 9781451648546...........................passed
+When a user retrieves the book by isbn......................................passed
+Then the status code is 200.................................................passed
+And response includes the following.........................................passed
+And response includes the following in any order............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify different POST operations using REST-assured" name="Verify one Employee Registration" time="0.015904">
+<system-out><![CDATA[Given A new employee details................................................passed
+Then verify employee Registration completed Successfully....................passed
+]]></system-out>
+</testcase>
+</testsuite>

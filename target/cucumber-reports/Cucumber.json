@@ -1,0 +1,479 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Verify one Employee Registration",
+        "description": "",
+        "id": "verify-different-delete-operations-using-rest-assured;verify-one-employee-registration",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 91664500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "A new employee details",
+            "match": {
+              "location": "POSTStepsDefinitions.aNewEmployeeDetails()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1765295300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "admin want to delete employee of ID 100",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 36
+                }
+              ],
+              "location": "DeleteStepsDefinitions.adminWantToDeleteEmployeeOfID(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44412400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "verify admin can delete employee Successfully",
+            "match": {
+              "location": "DeleteStepsDefinitions.verifyAdminCanDeleteEmployeeSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Verify one Employee Registration",
+        "description": "",
+        "id": "verify-different-delete-operations-using-rest-assured;verify-one-employee-registration",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 66600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "A new employee details",
+            "match": {
+              "location": "POSTStepsDefinitions.aNewEmployeeDetails()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18176500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "admin want to delete employee of ID 101",
+            "match": {
+              "arguments": [
+                {
+                  "val": "101",
+                  "offset": 36
+                }
+              ],
+              "location": "DeleteStepsDefinitions.adminWantToDeleteEmployeeOfID(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20640000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify admin can delete employee Successfully",
+            "match": {
+              "location": "DeleteStepsDefinitions.verifyAdminCanDeleteEmployeeSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Verify one Employee Registration",
+        "description": "",
+        "id": "verify-different-delete-operations-using-rest-assured;verify-one-employee-registration",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 59600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "A new employee details",
+            "match": {
+              "location": "POSTStepsDefinitions.aNewEmployeeDetails()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17623900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "admin want to delete employee of ID 150",
+            "match": {
+              "arguments": [
+                {
+                  "val": "150",
+                  "offset": 36
+                }
+              ],
+              "location": "DeleteStepsDefinitions.adminWantToDeleteEmployeeOfID(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16892700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verify admin can delete employee Successfully",
+            "match": {
+              "location": "DeleteStepsDefinitions.verifyAdminCanDeleteEmployeeSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Smock"
+          }
+        ]
+      }
+    ],
+    "name": "Verify different DELETE operations using REST-assured",
+    "description": "",
+    "id": "verify-different-delete-operations-using-rest-assured",
+    "keyword": "Feature",
+    "uri": "DELETEOperation.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Verify one employee by userID",
+        "description": "",
+        "id": "verify-different-get-operations-using-rest-assured;verify-one-employee-by-userid",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 131300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "a list of user details",
+            "match": {
+              "location": "GETStepsDefinitions.aListOfUserDetails()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 611180300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "retrieve one user by ID 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 24
+                }
+              ],
+              "location": "GETStepsDefinitions.retriveOneUserByID(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Verify Company Name of employee",
+        "description": "",
+        "id": "verify-different-get-operations-using-rest-assured;verify-company-name-of-employee",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 122000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "a list of user details",
+            "match": {
+              "location": "GETStepsDefinitions.aListOfUserDetails()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63683800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see company name of Virendra is Altimetrik",
+            "match": {
+              "location": "GETStepsDefinitions.iShouldSeeComapnyNameOfVirendraIsAltimetrik()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Verify Company Name of employee",
+        "description": "",
+        "id": "verify-different-get-operations-using-rest-assured;verify-company-name-of-employee",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 94300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "a list of user details",
+            "match": {
+              "location": "GETStepsDefinitions.aListOfUserDetails()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see company name of Virendra is CitiBank",
+            "match": {
+              "location": "GETStepsDefinitions.iShouldSeeCompanyNameOfVirendraIsCitiBank()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify different GET operations using REST-assured",
+    "description": "",
+    "id": "verify-different-get-operations-using-rest-assured",
+    "keyword": "Feature",
+    "uri": "GETOperation.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "User calls web service to get a book by its ISBN",
+        "description": "",
+        "id": "get-book-by-isbn;user-calls-web-service-to-get-a-book-by-its-isbn",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2097900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a book exists with an isbn of 9781451648546",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9781451648546",
+                  "offset": 30
+                }
+              ],
+              "location": "BookStepDefinitions.a_book_exists_with_isbn(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 957284700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a user retrieves the book by isbn",
+            "match": {
+              "location": "BookStepDefinitions.a_user_retrieves_the_book_by_isbn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 369900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 19
+                }
+              ],
+              "location": "BookStepDefinitions.verify_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29448100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "response includes the following",
+            "match": {
+              "location": "BookStepDefinitions.response_equals(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "totalItems",
+                  "1"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "kind",
+                  "books#volumes"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45109000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "response includes the following in any order",
+            "match": {
+              "location": "BookStepDefinitions.response_contains_in_any_order(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "items.volumeInfo.title",
+                  "Steve Jobs"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "items.volumeInfo.publisher",
+                  "Simon and Schuster"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "items.volumeInfo.pageCount",
+                  "630"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Get book by ISBN",
+    "description": "",
+    "id": "get-book-by-isbn",
+    "keyword": "Feature",
+    "uri": "GetBookByISBN.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify one Employee Registration",
+        "description": "",
+        "id": "verify-different-post-operations-using-rest-assured;verify-one-employee-registration",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 91100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "A new employee details",
+            "match": {
+              "location": "POSTStepsDefinitions.aNewEmployeeDetails()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15812700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "verify employee Registration completed Successfully",
+            "match": {
+              "location": "POSTStepsDefinitions.verifyEmployeeRegistrationCompletedSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Smock"
+          }
+        ]
+      }
+    ],
+    "name": "Verify different POST operations using REST-assured",
+    "description": "",
+    "id": "verify-different-post-operations-using-rest-assured",
+    "keyword": "Feature",
+    "uri": "POSTOperation.feature"
+  }
+]

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="methods.Testdata" duration-ms="4" started-at="2021-01-04T07:52:06Z" finished-at="2021-01-04T07:52:06Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="4" started-at="2021-01-04T07:52:06Z" finished-at="2021-01-04T07:52:06Z">
+    </test> <!-- Command line test -->
+  </suite> <!-- methods.Testdata -->
+</testng-results>

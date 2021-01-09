@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "Name": "virendra",
+      "EmailID": "viren@gmail.com",
+      "Mobile": "9910882229"
+    },
+    {
+      "id": 2,
+      "Name": "Avish",
+      "EmailID": "Avish@gmail.com",
+      "Mobile": "9910882281"
+    }
+  ],
+  "Address": [
+    {
+      "id": 1,
+      "State": "Bihar"
+    },
+    {
+      "id": 2,
+      "State": "Delhi"
+    },
+    {
+      "id": 3,
+      "State": "UP"
+    }
+  ],
+  "Company": [
+    {
+      "id": 1,
+      "Cname": "Google"
+    },
+    {
+      "id": 2,
+      "Cname": "Apple"
+    },
+    {
+      "id": 3,
+      "Cname": "FaceBook"
+    }
+  ]
+}
